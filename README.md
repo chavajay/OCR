@@ -251,29 +251,6 @@ Evalúa el modelo contra 15 textos de prueba en múltiples fuentes, condiciones 
 
 ---
 
-## Resultados obtenidos
-
-### test.png
-
-| Línea | Esperado | Obtenido | Aciertos |
-|---|---|---|---|
-| 1 | Hello OCR World | HeIIo OCR WorId | 12/15 (80%) |
-| 2 | Testing pipeline | Testing pipeIine | 15/16 (94%) |
-| **Total** | | | **27/31 (87.1%)** |
-
-### Prueba multi-fuente (línea completa "Hello OCR World" + "Testing pipeline")
-
-| Fuente | Precisión |
-|---|---|
-| DejaVu Serif | **100.0%** |
-| DejaVu Sans | 83.9% |
-| Noto Sans | 74.2% |
-| Ubuntu | 71.0% |
-| Liberation Sans | 64.5% |
-| **Media** | **78.7%** |
-
----
-
 ## Solución de problemas
 
 ### Error: `ModuleNotFoundError: No module named 'torch'`
@@ -323,16 +300,6 @@ Si las palabras aparecen pegadas, el detector de espacios puede no estar activá
 if gap > max(avg_width * 0.3, 4):  # más sensible
 ```
 
----
-
-## Mejoras futuras
-
-- [ ] **Aumentar dataset sintético** a 2000+ muestras/clase para mejor cobertura de fuentes.
-- [ ] **Entrenar en GPU** para experimentar con más arquitecturas (actualmente ~2h en CPU).
-- [ ] **Ensemble de modelos** combinando CNN + HOG + SVM.
-- [ ] **Corrector ortográfico** como post-procesamiento para validar palabras completas.
-- [ ] **Detección de layout** para manejar columnas múltiples y tablas.
-- [ ] **API REST** con Flask/FastAPI para integración remota.
 ---
 
 ## Licencia
