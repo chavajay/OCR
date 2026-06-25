@@ -1,0 +1,74 @@
+============================================================
+FINAL TRAINING: OpenCV + TrueType fonts through pipeline
+Classes: 75, Target/class: 800
+TTF fonts: 32, TTF sizes: [16, 20, 24, 28, 32, 36, 40]
+OpenCV fonts: 8
+Epochs: 80, Batch: 256
+============================================================
+
+Generating data...
+  Class 10/75, 7790 samples (1203/s)
+  Class 20/75, 15493 samples (1193/s)
+  Class 30/75, 23266 samples (1211/s)
+  Class 40/75, 31028 samples (1212/s)
+  Class 50/75, 38761 samples (1189/s)
+  Class 60/75, 46538 samples (1180/s)
+  Class 70/75, 53719 samples (1118/s)
+
+Generated 57386 total samples
+Data generated in 52s
+Train: (51647, 28, 28), Val: (5739, 28, 28)
+
+Training CNN...
+Epoch  1/80 | Train Loss: 3.4164 Acc: 0.1905 | Val Loss: 2.3391 Acc: 0.4790 | LR: 0.001000
+Epoch  2/80 | Train Loss: 2.3301 Acc: 0.5073 | Val Loss: 1.9180 Acc: 0.6205 | LR: 0.000998
+Epoch  3/80 | Train Loss: 2.0467 Acc: 0.6048 | Val Loss: 1.7596 Acc: 0.6689 | LR: 0.000997
+Epoch  4/80 | Train Loss: 1.9141 Acc: 0.6488 | Val Loss: 1.7011 Acc: 0.6817 | LR: 0.000994
+Epoch  5/80 | Train Loss: 1.8335 Acc: 0.6744 | Val Loss: 1.6551 Acc: 0.7047 | LR: 0.000990
+Epoch  6/80 | Train Loss: 1.7797 Acc: 0.6911 | Val Loss: 1.6051 Acc: 0.7168 | LR: 0.000986
+Epoch  7/80 | Train Loss: 1.7343 Acc: 0.7068 | Val Loss: 1.5794 Acc: 0.7266 | LR: 0.000981
+Epoch  8/80 | Train Loss: 1.6997 Acc: 0.7167 | Val Loss: 1.5649 Acc: 0.7374 | LR: 0.000976
+Epoch  9/80 | Train Loss: 1.6645 Acc: 0.7267 | Val Loss: 1.5278 Acc: 0.7412 | LR: 0.000969
+Epoch 10/80 | Train Loss: 1.6421 Acc: 0.7347 | Val Loss: 1.5256 Acc: 0.7442 | LR: 0.000962
+Epoch 11/80 | Train Loss: 1.6216 Acc: 0.7419 | Val Loss: 1.5251 Acc: 0.7480 | LR: 0.000954
+Epoch 12/80 | Train Loss: 1.5939 Acc: 0.7487 | Val Loss: 1.5169 Acc: 0.7423 | LR: 0.000946
+Epoch 13/80 | Train Loss: 1.5749 Acc: 0.7545 | Val Loss: 1.5064 Acc: 0.7437 | LR: 0.000936
+Epoch 14/80 | Train Loss: 1.5566 Acc: 0.7615 | Val Loss: 1.5101 Acc: 0.7496 | LR: 0.000926
+Epoch 15/80 | Train Loss: 1.5337 Acc: 0.7665 | Val Loss: 1.4987 Acc: 0.7536 | LR: 0.000916
+Epoch 16/80 | Train Loss: 1.5121 Acc: 0.7733 | Val Loss: 1.4849 Acc: 0.7531 | LR: 0.000905
+Epoch 17/80 | Train Loss: 1.4963 Acc: 0.7783 | Val Loss: 1.4809 Acc: 0.7595 | LR: 0.000893
+Epoch 18/80 | Train Loss: 1.4827 Acc: 0.7823 | Val Loss: 1.4812 Acc: 0.7547 | LR: 0.000880
+Epoch 19/80 | Train Loss: 1.4673 Acc: 0.7866 | Val Loss: 1.4741 Acc: 0.7580 | LR: 0.000867
+Epoch 20/80 | Train Loss: 1.4516 Acc: 0.7946 | Val Loss: 1.4757 Acc: 0.7606 | LR: 0.000854
+Epoch 21/80 | Train Loss: 1.4358 Acc: 0.7970 | Val Loss: 1.4672 Acc: 0.7568 | LR: 0.000840
+Epoch 22/80 | Train Loss: 1.4224 Acc: 0.8023 | Val Loss: 1.4793 Acc: 0.7554 | LR: 0.000825
+Epoch 23/80 | Train Loss: 1.4048 Acc: 0.8075 | Val Loss: 1.4771 Acc: 0.7602 | LR: 0.000810
+Epoch 24/80 | Train Loss: 1.3924 Acc: 0.8103 | Val Loss: 1.4762 Acc: 0.7583 | LR: 0.000794
+Epoch 25/80 | Train Loss: 1.3769 Acc: 0.8150 | Val Loss: 1.4884 Acc: 0.7595 | LR: 0.000778
+Epoch 26/80 | Train Loss: 1.3689 Acc: 0.8189 | Val Loss: 1.4777 Acc: 0.7656 | LR: 0.000761
+Epoch 27/80 | Train Loss: 1.3514 Acc: 0.8245 | Val Loss: 1.4836 Acc: 0.7627 | LR: 0.000745
+Epoch 28/80 | Train Loss: 1.3409 Acc: 0.8296 | Val Loss: 1.4877 Acc: 0.7620 | LR: 0.000727
+Epoch 29/80 | Train Loss: 1.3244 Acc: 0.8337 | Val Loss: 1.4909 Acc: 0.7602 | LR: 0.000710
+Epoch 30/80 | Train Loss: 1.3140 Acc: 0.8374 | Val Loss: 1.5029 Acc: 0.7588 | LR: 0.000692
+Epoch 31/80 | Train Loss: 1.2989 Acc: 0.8427 | Val Loss: 1.4911 Acc: 0.7660 | LR: 0.000673
+Epoch 32/80 | Train Loss: 1.2906 Acc: 0.8430 | Val Loss: 1.5001 Acc: 0.7616 | LR: 0.000655
+Epoch 33/80 | Train Loss: 1.2756 Acc: 0.8497 | Val Loss: 1.5077 Acc: 0.7639 | LR: 0.000636
+Epoch 34/80 | Train Loss: 1.2629 Acc: 0.8547 | Val Loss: 1.5073 Acc: 0.7604 | LR: 0.000617
+Epoch 35/80 | Train Loss: 1.2522 Acc: 0.8579 | Val Loss: 1.5184 Acc: 0.7632 | LR: 0.000598
+Epoch 36/80 | Train Loss: 1.2428 Acc: 0.8611 | Val Loss: 1.5088 Acc: 0.7604 | LR: 0.000579
+Epoch 37/80 | Train Loss: 1.2326 Acc: 0.8640 | Val Loss: 1.5218 Acc: 0.7639 | LR: 0.000559
+Epoch 38/80 | Train Loss: 1.2206 Acc: 0.8688 | Val Loss: 1.5122 Acc: 0.7646 | LR: 0.000540
+Epoch 39/80 | Train Loss: 1.2126 Acc: 0.8706 | Val Loss: 1.5255 Acc: 0.7573 | LR: 0.000520
+Epoch 40/80 | Train Loss: 1.1996 Acc: 0.8749 | Val Loss: 1.5292 Acc: 0.7625 | LR: 0.000501
+Epoch 41/80 | Train Loss: 1.1908 Acc: 0.8780 | Val Loss: 1.5226 Acc: 0.7615 | LR: 0.000481
+Early stopping at epoch 41
+Training complete. Best val acc: 0.7660 at epoch 31
+
+============================================================
+COMPLETE
+Gen: 52s, Train: 6519s (108.6min)
+Best val acc: 0.7660 (76.60%)
+Final val acc: 0.7615 (76.15%)
+============================================================
+
+Done!
